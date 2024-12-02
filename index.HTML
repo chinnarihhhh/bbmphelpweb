@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>West Bangalore Homeless Support</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file here -->
+    <style>
+        /* Basic CSS to help you visualize the layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1.5rem;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        #hero {
+            background: url('hero-image.jpg') no-repeat center center/cover;
+            color: #fff;
+            text-align: center;
+            padding: 5rem 2rem;
+            position: relative;
+        }
+        #hero .hero-overlay {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 3rem;
+        }
+        .cta-btn {
+            background-color: #e74c3c;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border: none;
+            margin: 0.5rem;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .cta-btn.secondary {
+            background-color: #3498db;
+        }
+        .about-section, .shelter-section, .gallery-section, .get-involved-section {
+            padding: 2rem;
+            text-align: center;
+            background-color: #fff;
+            margin-bottom: 1rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">West Bangalore Homeless Support</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#shelter-finder">Shelter Finder</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#get-involved">Get Involved</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#donate" class="cta-btn">Donate</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-overlay">
+            <h1>Helping the Homeless in West Bangalore</h1>
+            <p>Join us in making a difference in our community.</p>
+            <a href="#shelter-finder" class="cta-btn">Find Shelter</a>
+            <a href="https://www.facebook.com/prajnafoundation.in/" class="cta-btn secondary">Donate Now</a>
+            <a href="https://www.facebook.com/prajnafoundation.in/" class="cta-btn secondary">Get Involved</a>
+        </div>
+    </section>
+
+   <!-- About Us Section -->
+<section id="about" class="about-section">
+    <div class="about-container">
+        <h2>About Us</h2>
+        <p>
+            This website was created with the goal of bridging the gap between individuals in need and NGOs
+            operating within the BBMP jurisdiction in Bengaluru. Witnessing the struggles of vulnerable 
+            communities, I realized the need for a simple platform where people could request help easily and 
+            directly. Through a straightforward help form, this website connects users with NGOs that can 
+            provide support, whether it’s for shelter, food, medical aid, or other necessities. 
+            My aim is to ensure that assistance reaches those who need it most, fostering a community where 
+            no one is left behind.
+        </p>
+        <a href="about-us.html" class="cta-btn">Learn More</a>
+    </div>
+</section>
+
+<style>
+    .about-section {
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+    }
+
+    .about-container {
+        max-width: 600px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .about-container h2 {
+        margin-bottom: 16px;
+        font-size: 24px;
+        color: #333;
+    }
+
+    .about-container p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+    }
+
+    .cta-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .cta-btn:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+
+
+   <!-- Shelter Finder Section -->
+<section id="shelter-finder" class="shelter-section">
+    <div class="shelter-container">
+        <h2>Shelter Finder</h2>
+        <p>
+            Looking for a safe place to stay? Our Shelter Finder tool connects you to various shelters and safe spaces in the BBMP jurisdiction. Here’s how it works:
+
+Easy Search: Simply enter your location and the type of shelter you need (e.g., temporary shelter, long-term housing).
+List of Shelters: The tool will provide a list of nearby shelters with essential details such as location, contact information, and available services.
+Contact NGOs: If you're unable to find a shelter or need immediate assistance, the website can direct your request to an NGO that specializes in housing support.
+This service aims to help individuals and families quickly find a safe place, ensuring that no one is left without shelter.
+
+
+        </p>
+        <a href="https://maps.google.com/maps?safe=active&sca_esv=518c046ebb1e337c&sca_upv=1&rlz=1C1CHBF_enIN1090IN1090&output=search&q=Ngos+near+me&source=lnms&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkW1DRbm01j6DCVS0r1sTxn7pvw1ZnNyZYKWuMR5GMUVE89ig02OdSmPl1aSyOmxbcWHQ8TuwFQGS1r_6olWjCHXr4-tMUlzFZyieP0-jIWTU_H7h7Y1rsATS4ehVHGPtEG0Lm5WVtkkh8PAvFP_nYlqCcfxyUnA9eZ4t3HkoMqKFtRrWrrlsrmL7OTqiNUNf3n2MzckA&entry=mc&ved=1t:200715&ictx=111" 
+           class="cta-btn">
+            Find Shelter Now
+        </a>
+    </div>
+</section>
+
+<style>
+    .shelter-section {
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+        background-color: #f0f0f0;
+    }
+
+    .shelter-container {
+        max-width: 600px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .shelter-container h2 {
+        margin-bottom: 16px;
+        font-size: 24px;
+        color: #333;
+    }
+
+    .shelter-container p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+    }
+
+    .cta-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .cta-btn:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+
+  <!-- Gallery Section -->
+<section id="gallery" class="gallery-section">
+    <div class="gallery-container">
+        <h2>Our Impact</h2>
+        <p>
+            The impact of this platform is simple but significant. By connecting individuals in need with NGOs and shelters in the BBMP jurisdiction, we aim to provide timely assistance and support to those facing homelessness, food insecurity, and other challenges. This website serves as a bridge, simplifying access to vital resources and ensuring that help reaches the right people at the right time. Whether it’s connecting someone to a shelter, offering medical aid, or providing information about available resources, the goal is to create a community where no one is left behind. Every request submitted has the potential to change a life, making Bengaluru a more caring and supportive city for everyone.
+        </p>
+        <a href="gallery.html" class="cta-btn">View Gallery</a>
+    </div>
+</section>
+
+<style>
+    .gallery-section {
+        display: flex;
+        justify-content: center;
+        padding: 40px 20px;
+        background-color: #f9f9f9;
+    }
+
+    .gallery-container {
+        max-width: 600px;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        background-color: #ffffff;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+    }
+
+    .gallery-container h2 {
+        margin-bottom: 16px;
+        font-size: 24px;
+        color: #333;
+    }
+
+    .gallery-container p {
+        margin-bottom: 20px;
+        font-size: 16px;
+        color: #555;
+        line-height: 1.6;
+    }
+
+    .cta-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #ffffff;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.3s ease;
+    }
+
+    .cta-btn:hover {
+        background-color: #0056b3;
+    }
+</style>
+
+
+   <!-- Get Involved Section -->
+<section id="get-involved" class="get-involved-section">
+    <div class="get-involved-container">
+        <h2>How You Can Help</h2>
+        <p>
+            You can make a difference in the lives of those who need it most. Here’s how you can get involved:
+
+Volunteer: Join hands with local NGOs and offer your time and skills to help those in need. Whether it’s helping with outreach, distributing supplies, or providing support at shelters, every little effort counts.
+Donate: Support the cause by donating funds, food, clothes, or other resources. Your donations can directly help NGOs provide essential services to those facing hardship.
+Spread the Word: Share this platform with your friends, family, and community. The more people who know about it, the more individuals in need can be helped. Awareness is key to creating lasting change.
+        </p>
+        <div class="btn-group">
+            <a href="volunteer.html" class="cta-btn secondary">Volunteer</a>
+            <a href="https://www.facebook.com/prajnafoundation.in/" class="cta-btn secondary">Donate Now</a>
+            <a href="https://www.justdial.com/Bangalore/NGOS/nct-10337253" class="cta-btn secondary">NGO Providers</a>
+        </div>
+    </div>
+</section>
+
+<style>
+    .get-involved-section {
+        display: flex;
+        justify-content: center;
+        padding: 50px 20px;
+        background: linear-gradient(135deg, #6a11cb, #2575fc);
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .get-involved-container {
+        max-width: 800px;
+        padding: 30px;
+        border-radius: 12px;
+        background-color: rgba(255, 255, 255, 0.1);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .get-involved-container:hover {
+        transform: scale(1.02);
+        box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .get-involved-container h2 {
+        margin-bottom: 16px;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .get-involved-container p {
+        margin-bottom: 30px;
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    .btn-group {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .cta-btn.secondary {
+        display: inline-block;
+        padding: 12px 24px;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #333;
+        text-decoration: none;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .cta-btn.secondary:hover {
+        background-color: #ffffff;
+        color: #2575fc;
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        transform: translateY(-3px);
+    }
+
+    .cta-btn.secondary:active {
+        transform: translateY(1px);
+        box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    }
+</style>
+
+<!-- Help Form Section -->
+<section id="help-form" class="help-form-section">
+    <div class="help-form-container">
+        <h2>Find Help</h2>
+        <p>If you are in need, fill out the form below to get the assistance you require.</p>
+        <form id="helpForm">
+            <label for="fullName">Full Name</label>
+            <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+            <label for="contact">Contact Number</label>
+            <input type="tel" id="contact" name="contact" placeholder="10-digit contact number" pattern="[0-9]{10}" required>
+
+            <label for="email">Email (if available)</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address">
+
+            <label for="location">Current Location</label>
+            <input type="text" id="location" name="location" placeholder="Enter your current location" required>
+
+            <label for="situation">Briefly Describe Your Situation</label>
+            <textarea id="situation" name="situation" rows="4" placeholder="Provide a short description of your situation" required></textarea>
+
+            <label for="helpType">Type of Help Needed</label>
+            <select id="helpType" name="helpType" required>
+                <option value="">Select type of help...</option>
+                <option value="shelter">Shelter</option>
+                <option value="food">Food</option>
+                <option value="employment">Employment Assistance</option>
+                <option value="medical">Medical Assistance</option>
+                <option value="others">Others</option>
+            </select>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<style>
+    /* Help Form Section */
+    .help-form-section {
+        padding: 50px 20px;
+        background-color: #f8f9fa; /* Light grey background for elegance */
+        text-align: center;
+    }
+
+    .help-form-container {
+        max-width: 700px;
+        margin: 0 auto;
+        background-color: #ffffff; /* Clean white background for form */
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    }
+
+    .help-form-container h2 {
+        margin-bottom: 16px;
+        font-size: 2.2em;
+        font-weight: bold;
+        color: #212529; /* Dark grey for contrast */
+    }
+
+    .help-form-container p {
+        margin-bottom: 20px;
+        font-size: 1.1em;
+        color: #6c757d; /* Subtle grey for text */
+    }
+
+    form label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 8px;
+        color: #212529;
+    }
+
+    form input, form textarea, form select {
+        width: 100%;
+        padding: 12px;
+        margin-bottom: 20px;
+        border: 1px solid #ced4da;
+        border-radius: 6px;
+        font-size: 1em;
+        background-color: #f8f9fa;
+        transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    form input:focus, form textarea:focus, form select:focus {
+        border-color: #007bff; /* Blue highlight for focus */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.25); /* Subtle blue glow */
+        outline: none;
+    }
+
+    form button {
+        width: 100%;
+        padding: 12px;
+        background-color: #007bff; /* Modern blue for buttons */
+        color: white;
+        font-size: 1.1em;
+        font-weight: bold;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    form button:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: translateY(-2px);
+    }
+
+    form button:active {
+        background-color: #004085; /* Even darker blue on click */
+        transform: translateY(1px);
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        .help-form-container {
+            padding: 20px;
+        }
+
+        form button {
+            font-size: 1em;
+        }
+    }
+</style>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzA2LQO6oc-0dPKpnM_kXa2ovZqWOYjtX2ezNVWqWSmP_6cQePEGpb-ckXP2EWXFDO8/exec'; // Replace this with your Web App URL
+    const form = document.getElementById('helpForm');
+    
+    form.addEventListener('submit', async (e) => {
+        e.preventDefault();
+
+        try {
+            const formData = new FormData(form);
+            const response = await fetch(scriptURL, {
+                method: 'POST',
+                body: JSON.stringify(Object.fromEntries(formData)),
+                headers: { 'Content-Type': 'application/json' },
+            });
+
+            if (response.ok) {
+                alert('Form submitted successfully!');
+                form.reset();
+            } else {
+                alert('Error submitting form. Please try again.');
+            }
+        } catch (error) {
+            alert('There was an error submitting the form. Please try again.');
+        }
+    });
+</script>
+
+
+   <!-- Footer Section -->
+<footer class="site-footer">
+    <div class="footer-container">
+        <!-- Contact Information -->
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: <a href="mailto:info@westbangalorehomeless.org">info@westbangalorehomeless.org</a></p>
+            <p>Phone: <a href="tel:+911234567890">+91-1234567890</a></p>
+        </div>
+
+        <!-- Social Media Links -->
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <ul class="social-links">
+                <li><a href="https://www.facebook.com/prajnafoundation.in/" target="_blank" class="social-link">Facebook</a></li>
+                <li><a href="https://www.instagram.com/prajnafoundation/" target="_blank" class="social-link">INSTAGRAM</a></li>
+        </div>
+
+        <!-- Newsletter Subscription -->
+        <div class="footer-newsletter">
+            <h3>Stay Updated</h3>
+            <form id="newsletterForm">
+                <input type="email" name="newsletterEmail" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; DEVLOPER:- SIDDHARTH.CH +NGO prajnafoundation</p>
+    </div>
+</footer>
+
+<style>
+    /* Footer Section */
+    .site-footer {
+        background-color: #212121; /* Dark background for modern look */
+        color: #ffffff;
+        padding: 50px 20px;
+        font-size: 1em;
+        border-top: 5px solid #ff7043; /* Orange accent border */
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+        gap: 40px;
+    }
+
+    .footer-contact, .footer-social, .footer-newsletter {
+        flex: 1;
+        min-width: 280px;
+        max-width: 400px;
+    }
+
+    .footer-contact h3, .footer-social h3, .footer-newsletter h3 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+        color: #ff7043; /* Orange accent color */
+        font-weight: bold;
+    }
+
+    .footer-contact a, .footer-social a {
+        color: #ffffff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+        font-size: 1.1em;
+    }
+
+    .footer-contact a:hover, .footer-social a:hover {
+        color: #ff7043; /* Orange hover effect */
+    }
+
+    .social-links {
+        list-style: none;
+        padding: 0;
+    }
+
+    .social-links li {
+        margin-bottom: 15px;
+    }
+
+    .footer-newsletter form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-newsletter input {
+        padding: 12px;
+        margin-bottom: 15px;
+        border: 1px solid #444;
+        border-radius: 8px;
+        background-color: #333;
+        color: #ffffff;
+        font-size: 1em;
+        transition: border-color 0.3s ease;
+    }
+
+    .footer-newsletter input:focus {
+        border-color: #ff7043; /* Focus color */
+    }
+
+    .footer-newsletter button {
+        padding: 12px;
+        background-color: #ff7043; /* Button color */
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.1em;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .footer-newsletter button:hover {
+        background-color: #ff5722; /* Darker orange on hover */
+    }
+
+    .footer-bottom {
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 10px;
+        font-size: 0.9em;
+        color: #bdbdbd;
+    }
+
+    .footer-bottom p {
+        margin-top: 20px;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-contact, .footer-social, .footer-newsletter {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .footer-newsletter input, .footer-newsletter button {
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+</style>
+
+<script>
+    const newsletterForm = document.getElementById('newsletterForm');
+    
+    newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert('Thank you for subscribing to our newsletter!');
+        newsletterForm.reset();
+    });
+</script>
+
+
+</body>
+</html>
